@@ -8,7 +8,7 @@ const Images = (props) => {
           <div key={item.id} style={{margin: '40px auto'}}>
             <img src={item.src} alt="imageOne" style={{width: '80vw'}}/>
             <li style={{listStyle: 'none', fontSize: '18px'}}>{item.title}</li>
-            <button onClick={() => props.clicked(item.id)}>{item.favToggle? 'unfavorite': 'favorite'}</button>
+            <button onClick={() => props.clicked(item)}>{item.favToggle? 'unfavorite': 'favorite'}</button>
           </div>
         ))}
       </div>

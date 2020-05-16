@@ -10,13 +10,21 @@ library.add(faHeart);
 function App() {
   console.log(initialState)
   const [items, setItems] = useState(initialState);
-  const favList = [];
-  const toggleFavHandler = (id) => {
-    setItems({favToggle: !items.favToggle})
+  const [favList, setFavList] = useState([]);
+
+  const toggleFavHandler = (item) => {
+    // const updatedList = favList.concat(item)
+    // setFavList(updatedList)
+    // console.log(updatedList)
+
+    const updatedList = favList.filter(fav => fav.id !== item.id) 
+    updatedList.push(favList)
+    setFavList(updatedList)
+    console.log(updatedList)
   }
   return (
     <div className="App">
-      <Header />
+      <Header value={favList.length}/>
       <Images
         items={items}
         clicked={toggleFavHandler}
