@@ -45,12 +45,11 @@ export const initialState = {
 export const ToggleFavReducer = (state,action) => {
     switch(action.type) {
         case 'ADD_FAV': 
-            if(state.favoritesList.includes(action.payload.id)) {
+            if(state.favoritesList.includes(action.payload)) {
                 return {...state, favoritesList: state.favoritesList}
             } else {
                 const updatedItem = state.favoritesList.concat(action.payload)
-                return {...state, favoritesList: updatedItem}
-                
+                return {...state, favoritesList: updatedItem}                
             }
         case 'REMOVE_FAV':
             return {...state, favoritesList: action.payload}
