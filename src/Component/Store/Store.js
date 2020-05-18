@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useReducer} from 'react';
 import imageOne from '../../assets/img01.jpg';
 import imageTwo from '../../assets/img02.jpg';
 import imageThree from '../../assets/img03.jpg';
@@ -41,10 +41,17 @@ export const initialState = {
     favoritesList: []
 }
 
+
 export const ToggleFavReducer = (state,action) => {
     switch(action.type) {
         case 'ADD_FAV': 
-            return {...state, favoritesList: [...state.favoritesList, action.payload]}
+            if(state.favoritesList.includes(action.payload.id)) {
+                return {...state, favoritesList: state.favoritesList}
+            } else {
+                const updatedItem = state.favoritesList.concat(action.payload)
+                return {...state, favoritesList: updatedItem}
+                
+            }
         case 'REMOVE_FAV':
             return {...state, favoritesList: action.payload}
         default: 
@@ -54,10 +61,12 @@ export const ToggleFavReducer = (state,action) => {
 
 export const ImageContext = React.createContext(initialState.images);
 
-
 export const ImageContextProvider = (props) => {
+    const [state, dispatch] = useReducer(ToggleFavReducer, initialState)
+    // console.log(state)
+    // console.log(dispatch)
     return (
-        <ImageContext.Provider value={initialState.images}>
+        <ImageContext.Provider value={{state, dispatch}}>
             {props.children}
         </ImageContext.Provider>
     )

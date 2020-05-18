@@ -2,17 +2,18 @@ import React, {useContext, useReducer} from 'react';
 import { ImageContext, ToggleFavReducer, initialState } from '../Store/Store'; 
 
 const Images = () => {
-    const imageList = useContext(ImageContext);
-    const [state, dispatch] = useReducer(ToggleFavReducer, initialState)
+    const {state, dispatch} = useContext(ImageContext);
     console.log(state)
-    // console.log(dispatch)
+    const {favoritesList} = state;
+    console.log('favoritesList', favoritesList)
     return (
         <div style={{marginTop: '100px'}}>
-        {imageList.map(item => (
+        {state.images.map(item => (
           <div key={item.id} style={{margin: '40px auto'}}>
             <img src={item.src} alt="imageOne" style={{width: '80vw'}}/>
             <li style={{listStyle: 'none', fontSize: '18px'}}>{item.title}</li>
-            <button onClick={() => dispatch({type:'ADD_FAV', payload: item})}>{item.favToggle? 'unfavorite': 'favorite'}</button>
+            <button onClick={() => dispatch({type:'ADD_FAV', payload: item})}>{item.favToggle ? "unfavorite" : "favorite"}
+            </button>
           </div>
         ))}
       </div>
