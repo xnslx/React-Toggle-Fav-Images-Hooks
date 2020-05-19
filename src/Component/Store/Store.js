@@ -52,20 +52,20 @@ export const ToggleFavReducer = (state,action) => {
                 return {...state, favoritesList: updatedItem}                
             }
         case 'REMOVE_FAV':
-            return {...state, favoritesList: action.payload}
+            return {...state, favoritesList: state.favoritesList.filter(id => id!== action.payload)}
         default: 
             return state
     }
 }
 
-export const ImageContext = React.createContext(initialState.images);
+export const ImageContext = React.createContext(initialState);
 
 export const ImageContextProvider = (props) => {
     const [state, dispatch] = useReducer(ToggleFavReducer, initialState)
-    // console.log(state)
+    console.log(state)
     // console.log(dispatch)
     return (
-        <ImageContext.Provider value={{state, dispatch}}>
+        <ImageContext.Provider value={{state,dispatch}}>
             {props.children}
         </ImageContext.Provider>
     )
