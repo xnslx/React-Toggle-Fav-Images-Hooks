@@ -62,8 +62,8 @@ export const ImageContext = React.createContext(initialState);
 
 export const ImageContextProvider = (props) => {
     const [state, dispatch] = useReducer(ToggleFavReducer, initialState)
-    console.log(state)
-    // console.log(dispatch)
+    // console.log(state)
+
     return (
         <ImageContext.Provider value={{state,dispatch}}>
             {props.children}

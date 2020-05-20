@@ -1,5 +1,5 @@
-import React, {useContext, useState} from 'react';
-import {ImageContext, initialState} from './Component/Store/Store';
+import React from 'react';
+// import {ImageContext, initialState} from './Component/Store/Store';
 import './App.css';
 import {ImageContextProvider} from './Component/Store/Store';
 import Images from './Component/Images/Images';
@@ -9,14 +9,11 @@ import {faHeart} from '@fortawesome/free-regular-svg-icons';
 library.add(faHeart);
 
 function App() {
-  const state = useContext(ImageContext)
-  console.log(state)
-  const {favoritesList} = state;
-  // console.log(favoritesList)
+
   return (
     <ImageContextProvider>
       <div className="App">
-        <Header value={favoritesList.length}/>
+        <Header />
         <Images
         />
       </div>
