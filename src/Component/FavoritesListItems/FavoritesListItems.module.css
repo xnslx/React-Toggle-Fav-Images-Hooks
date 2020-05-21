@@ -1,0 +1,27 @@
+.FavList {
+    position: fixed;
+    width: 375px;
+    display: flex;
+    padding-top: 40px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+@media(min-width: 500px) {
+    .FavList {
+        display: none
+    }
+}
+
+.Open {
+    transform: translateX(0)
+}
+
+.Close {
+    transform: translateX(-100%)
+}

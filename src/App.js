@@ -1,7 +1,7 @@
 import React from 'react';
-// import {ImageContext, initialState} from './Component/Store/Store';
 import './App.css';
 import {ImageContextProvider} from './Component/Store/Store';
+import FavoritesListItems from './Component/FavoritesListItems/FavoritesListItems';
 import Images from './Component/Images/Images';
 import Header from './Component/Header/Header';
 import {library} from '@fortawesome/fontawesome-svg-core';
@@ -14,8 +14,7 @@ function App() {
     <ImageContextProvider>
       <div className="App">
         <Header />
-        <Images
-        />
+        <Images/>
       </div>
     </ImageContextProvider>
   );
