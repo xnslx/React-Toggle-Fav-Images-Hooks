@@ -8,7 +8,7 @@ const Images = () => {
     // console.log('favoritesList', favoritesList)
     
     return (
-        <div style={{marginTop: '100px'}}>
+        <div style={{marginTop: '60px'}}>
         {state.images.map(item => (
           <div key={item.id} style={{margin: '40px auto'}}>
             <img src={item.src} alt="imageOne" style={{width: '80vw'}}/>
