@@ -8,13 +8,8 @@ const FavoritesListItems = (props) => {
     const {favoritesList} = state;
     console.log(favoritesList)
     
-    let attachedClasses = [classes.FavList, classes.Close]
-    if(classes.Open) {
-        attachedClasses = [classes.FavList, classes.Open]
-    }
-    
     return (
-        <div className={attachedClasses.join(' ')} >
+        <div className={classes.FavList} >
             {favoritesList.map(item => (
                 <ul key={item.id}>
                     <img 

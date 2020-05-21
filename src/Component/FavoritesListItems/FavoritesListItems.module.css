@@ -1,7 +1,9 @@
 .FavList {
     position: fixed;
-    width: 375px;
-    display: flex;
+    overflow: scroll;
+    /* max-width: 80%; */
+    /* width: 375px;
+    display: flex; */
     padding-top: 40px;
     height: 100%;
     left: 0;
