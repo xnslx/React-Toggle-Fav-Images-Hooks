@@ -5,8 +5,8 @@ import FavoritesListItems from './Component/FavoritesListItems/FavoritesListItem
 import Images from './Component/Images/Images';
 import Header from './Component/Header/Header';
 import {library} from '@fortawesome/fontawesome-svg-core';
-import {faHeart} from '@fortawesome/free-regular-svg-icons';
-library.add(faHeart);
+import {faHeart, faTimesCircle} from '@fortawesome/free-regular-svg-icons';
+library.add(faHeart, faTimesCircle);
 
 function App() {
 

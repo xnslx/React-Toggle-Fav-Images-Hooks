@@ -1,7 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {ImageContext} from '../Store/Store';
 import FavoritesListItems from '../FavoritesListItems/FavoritesListItems';
-// import classes from './Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
@@ -10,12 +9,14 @@ const Header = () => {
     const {favoritesList} = state;
     console.log(favoritesList)
     const [favListIsVisible, setFavListIsVisible] = useState(false);
-    
+
+    // const openFavListHandler = () => {
+    //     setFavListIsVisible({favListIsVisible:true})
+    // }
     let results;
-    
     if(favListIsVisible) {
         results = (
-            <FavoritesListItems />
+            <FavoritesListItems /> 
         )
     } else {
         results = ''

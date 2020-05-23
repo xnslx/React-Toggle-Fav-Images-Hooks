@@ -2,12 +2,9 @@
     position: fixed;
     overflow: scroll;
     width: 90vw;
-    /* max-width: 80%; */
-    /* width: 375px;
-    display: flex; */
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 80px;
     height: 100%;
     left: 0;
     top: 0;
@@ -24,10 +21,10 @@
     }
 } */
 
-.Open {
+.FavListOpen {
     transform: translateX(0)
 }
 
-.Close {
+.FavListClose {
     transform: translateX(-100%)
 }
