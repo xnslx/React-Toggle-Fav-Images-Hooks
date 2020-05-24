@@ -1,11 +1,12 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext} from 'react';
 import {ImageContext} from '../Store/Store';
 import classes from './FavoritesListItems.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const FavoritesListItems = () => {
-    const {state } = useContext(ImageContext)
+    const {state, dispatch } = useContext(ImageContext)
     console.log(state)
+    console.log(dispatch)
     const {favoritesList} = state;
     console.log(favoritesList)
     
@@ -15,20 +16,12 @@ const FavoritesListItems = () => {
         alignItems: 'center'
     }
 
-    // const cssClasses = ['FavList', props.show? 'FavListOpen' : 'FavListClose' ]
-    const [favImage, setFavImage] = useState(favoritesList);
-    const [favListIsVisible, setFavListIsVisible] = useState(true);
-
-    const deleteImageHandler = (index) => {
-        const updatedList = favoritesList.splice(index,1)
-        setFavImage({favImage: updatedList})
-    }
     return (
         <div className={classes.FavList} >
-            <button onClick={() => setFavListIsVisible({favListIsVisible:false})}><FontAwesomeIcon 
+            {/* <button onClick={() => setFavListIsVisible(false)}><FontAwesomeIcon 
                 icon={['far', 'times-circle']} 
                 style={{marginLeft:'40px', marginBottom:'40px'}}
-            /></button>
+            /></button> */}
             {favoritesList.map(item => (
                 <ul key={item.id}>
                     <img 
@@ -38,7 +31,7 @@ const FavoritesListItems = () => {
                     />
                     <li style={{listStyle: 'none', fontSize: '18px', textAlign:'center', marginTop:'8px'}}>{item.title}</li>
                     <div style={buttonStyle}>
-                        <button onClick={() => deleteImageHandler(item.index)}>Delete</button>
+                        <button onClick={() => dispatch({type:'DELETE_FAV', payload: item.index})}>Delete</button>
                     </div>
                 </ul>
             ))}

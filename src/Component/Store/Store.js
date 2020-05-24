@@ -53,6 +53,9 @@ export const ToggleFavReducer = (state,action) => {
             }
         case 'REMOVE_FAV':
             return {...state, favoritesList: state.favoritesList.filter(id => id!== action.payload)}
+        case 'DELETE_FAV':
+            const updatedFavList = state.favoritesList.splice(action.payload, 1)
+            return {...state, favoritesList: updatedFavList}
         default: 
             return state
     }

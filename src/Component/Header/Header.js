@@ -11,7 +11,8 @@ const Header = () => {
     const [favListIsVisible, setFavListIsVisible] = useState(false);
 
     // const openFavListHandler = () => {
-    //     setFavListIsVisible({favListIsVisible:true})
+    //     setFavListIsVisible({favListIsVisible:false})
+    //     // console.log('i am clicked')
     // }
     let results;
     if(favListIsVisible) {
