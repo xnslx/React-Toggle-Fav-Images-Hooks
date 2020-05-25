@@ -1,33 +1,32 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext} from 'react';
 import {ImageContext} from '../Store/Store';
-import FavoritesListItems from '../FavoritesListItems/FavoritesListItems';
+// import FavoritesListItems from '../FavoritesListItems/FavoritesListItems';
+import {Link} from 'react-router-dom';
+import logo from '../../assets/logo_transparent.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
     const {state} = useContext(ImageContext)
-    console.log(state)
+    // console.log(state)
     const {favoritesList} = state;
-    console.log(favoritesList)
-    const [favListIsVisible, setFavListIsVisible] = useState(false);
+    // console.log(favoritesList)
 
-    // const openFavListHandler = () => {
-    //     setFavListIsVisible({favListIsVisible:false})
-    //     // console.log('i am clicked')
-    // }
-    let results;
-    if(favListIsVisible) {
-        results = (
-            <FavoritesListItems /> 
-        )
-    } else {
-        results = ''
-    }
+    const logoStyle = {
+        width: '20%',
+        height:'auto',
+        float:'left',
+        marginLeft:'20px',
+        marginTop:'-20px'
+      }
+
     return (
-        <div style={{marginTop:'20px', textAlign:'right',marginRight:'40px'}}>
-            <button onClick={() => setFavListIsVisible(true)}><FontAwesomeIcon icon={['far', 'heart']}/></button>
-            <span>{favoritesList.length}</span>
-            {results}
-        </div>
+        <>
+            <Link to='/'><img src={logo} alt="logo" style={logoStyle}/></Link>
+            <div style={{marginTop:'20px', textAlign:'right',marginRight:'40px'}}>
+                <Link to='/favImages'><FontAwesomeIcon icon={['far', 'heart']}/></Link>
+                <span>{favoritesList.length}</span>
+            </div>
+        </>
     )
 };
 

@@ -1,14 +1,13 @@
 import React, {useContext} from 'react';
 import {ImageContext} from '../Store/Store';
 import classes from './FavoritesListItems.module.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const FavoritesListItems = () => {
     const {state, dispatch } = useContext(ImageContext)
-    console.log(state)
-    console.log(dispatch)
+    // console.log(state)
+    // console.log(dispatch)
     const {favoritesList} = state;
-    console.log(favoritesList)
+    // console.log(favoritesList)
     
     const buttonStyle = {
         display:'flex',
@@ -18,10 +17,6 @@ const FavoritesListItems = () => {
 
     return (
         <div className={classes.FavList} >
-            {/* <button onClick={() => setFavListIsVisible(false)}><FontAwesomeIcon 
-                icon={['far', 'times-circle']} 
-                style={{marginLeft:'40px', marginBottom:'40px'}}
-            /></button> */}
             {favoritesList.map(item => (
                 <ul key={item.id}>
                     <img 

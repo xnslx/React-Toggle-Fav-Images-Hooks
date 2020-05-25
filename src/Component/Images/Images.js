@@ -1,14 +1,15 @@
 import React, {useContext } from 'react';
-import { ImageContext } from '../Store/Store'; 
+import { ImageContext } from '../Store/Store';
+import classes from './Images.module.css'; 
 
 const Images = () => {
     const {state, dispatch} = useContext(ImageContext);
-    console.log(state)
+    // console.log(state)
     const {favoritesList} = state;
     // console.log('favoritesList', favoritesList)
     
     return (
-        <div style={{marginTop: '60px'}}>
+        <div className={classes.Container}>
         {state.images.map(item => (
           <div key={item.id} style={{margin: '40px auto'}}>
             <img src={item.src} alt="imageOne" style={{width: '80vw'}}/>
