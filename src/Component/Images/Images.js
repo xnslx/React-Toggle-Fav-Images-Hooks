@@ -20,7 +20,7 @@ const Images = () => {
                 } else {
                     dispatch({type: 'ADD_FAV', payload: item})
                 }
-            }}>{favoritesList.includes(item) ? "unfavorite" : "favorite"}
+            }}>{favoritesList.includes(item) ? "Unfavorite" : "Favorite"}
             </button>
           </div>
         ))}
