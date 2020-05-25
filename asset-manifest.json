@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.f856416f.chunk.css",
-    "main.js": "/static/js/main.3850fc88.chunk.js",
-    "main.js.map": "/static/js/main.3850fc88.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7c5d8820.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7c5d8820.js.map",
-    "static/js/2.ad34ac1f.chunk.js": "/static/js/2.ad34ac1f.chunk.js",
-    "static/js/2.ad34ac1f.chunk.js.map": "/static/js/2.ad34ac1f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c73f18d32115a6ea155dcda27c9785ec.js": "/precache-manifest.c73f18d32115a6ea155dcda27c9785ec.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f856416f.chunk.css.map": "/static/css/main.f856416f.chunk.css.map",
-    "static/js/2.ad34ac1f.chunk.js.LICENSE.txt": "/static/js/2.ad34ac1f.chunk.js.LICENSE.txt",
-    "static/media/img01.jpg": "/static/media/img01.8d1a45b4.jpg",
-    "static/media/img02.jpg": "/static/media/img02.ac78cf3f.jpg",
-    "static/media/img03.jpg": "/static/media/img03.1814966d.jpg",
-    "static/media/img04.jpg": "/static/media/img04.3d3e7ce9.jpg",
-    "static/media/img05.jpg": "/static/media/img05.a2c46ad8.jpg"
+    "main.css": "/React-Toggle-Fav-Images-Hooks/static/css/main.f856416f.chunk.css",
+    "main.js": "/React-Toggle-Fav-Images-Hooks/static/js/main.3287a18d.chunk.js",
+    "main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/main.3287a18d.chunk.js.map",
+    "runtime-main.js": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js",
+    "runtime-main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js.map",
+    "static/js/2.ad34ac1f.chunk.js": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js",
+    "static/js/2.ad34ac1f.chunk.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.map",
+    "index.html": "/React-Toggle-Fav-Images-Hooks/index.html",
+    "precache-manifest.367040cf831a41484a7acaf816e5ada1.js": "/React-Toggle-Fav-Images-Hooks/precache-manifest.367040cf831a41484a7acaf816e5ada1.js",
+    "service-worker.js": "/React-Toggle-Fav-Images-Hooks/service-worker.js",
+    "static/css/main.f856416f.chunk.css.map": "/React-Toggle-Fav-Images-Hooks/static/css/main.f856416f.chunk.css.map",
+    "static/js/2.ad34ac1f.chunk.js.LICENSE.txt": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.LICENSE.txt",
+    "static/media/img01.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img01.8d1a45b4.jpg",
+    "static/media/img02.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img02.ac78cf3f.jpg",
+    "static/media/img03.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img03.1814966d.jpg",
+    "static/media/img04.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img04.3d3e7ce9.jpg",
+    "static/media/img05.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img05.a2c46ad8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c5d8820.js",
+    "static/js/runtime-main.c9a4a578.js",
     "static/js/2.ad34ac1f.chunk.js",
     "static/css/main.f856416f.chunk.css",
-    "static/js/main.3850fc88.chunk.js"
+    "static/js/main.3287a18d.chunk.js"
   ]
 }
