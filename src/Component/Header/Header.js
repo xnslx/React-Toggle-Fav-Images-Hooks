@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {ImageContext} from '../Store/Store';
 // import FavoritesListItems from '../FavoritesListItems/FavoritesListItems';
+// import Images from '../Images/Images';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo_transparent.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

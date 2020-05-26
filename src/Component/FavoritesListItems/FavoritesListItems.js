@@ -9,11 +9,11 @@ const FavoritesListItems = () => {
     const {favoritesList} = state;
     // console.log(favoritesList)
     
-    const buttonStyle = {
-        display:'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-    }
+    // const buttonStyle = {
+    //     display:'flex',
+    //     justifyContent: 'center',
+    //     alignItems: 'center'
+    // }
 
     return (
         <div className={classes.FavList} >
@@ -25,9 +25,7 @@ const FavoritesListItems = () => {
                         style={{width: '80vw' }}
                     />
                     <li style={{listStyle: 'none', fontSize: '18px', textAlign:'center', marginTop:'8px'}}>{item.title}</li>
-                    <div style={buttonStyle}>
                         <button onClick={() => dispatch({type:'DELETE_FAV', payload: item.id})}>Delete</button>
-                    </div>
                 </ul>
             ))}
         </div>
