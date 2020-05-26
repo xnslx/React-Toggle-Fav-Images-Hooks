@@ -26,7 +26,7 @@ const FavoritesListItems = () => {
                     />
                     <li style={{listStyle: 'none', fontSize: '18px', textAlign:'center', marginTop:'8px'}}>{item.title}</li>
                     <div style={buttonStyle}>
-                        <button onClick={() => dispatch({type:'DELETE_FAV', payload: item.index})}>Delete</button>
+                        <button onClick={() => dispatch({type:'DELETE_FAV', payload: item.id})}>Delete</button>
                     </div>
                 </ul>
             ))}
