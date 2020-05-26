@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa0c06cfe2f2f1459f9bdee6829d374e",
+    "revision": "7a8ad86a9481d3521af75c0977c8319d",
     "url": "/React-Toggle-Fav-Images-Hooks/index.html"
   },
   {
-    "revision": "45ae837ef70387ad331c",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/css/main.f856416f.chunk.css"
+    "revision": "cad7467633238b4a4b28",
+    "url": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css"
   },
   {
     "revision": "58aa5371e1d6334f6ca2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45ae837ef70387ad331c",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/js/main.9157e423.chunk.js"
+    "revision": "cad7467633238b4a4b28",
+    "url": "/React-Toggle-Fav-Images-Hooks/static/js/main.c9bddd8f.chunk.js"
   },
   {
     "revision": "dfc24c18663c3c5e0090",
