@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import {ImageContextProvider} from './Component/Store/Store';
-import FavoritesListItems from './Component/FavoritesListItems/FavoritesListItems';
-import Images from './Component/Images/Images';
+// import FavoritesListItems from './Component/FavoritesListItems/FavoritesListItems';
+// import Images from './Component/Images/Images';
 import Header from './Component/Header/Header';
-import {Switch, Route} from 'react-router-dom'
+import Main from './Component/Main/Main';
+// import {Switch, Route} from 'react-router-dom'
 // import logo from './assets/logo_transparent.png';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faHeart, faTimesCircle} from '@fortawesome/free-regular-svg-icons';
@@ -15,10 +16,11 @@ function App() {
   return (
       <ImageContextProvider>
           <Header />
-        <Switch>
+          <Main />
+        {/* <Switch>
           <Route path='/' exact component={Images}/>
           <Route path='/favImages' component={FavoritesListItems}/>
-        </Switch>
+        </Switch> */}
       </ImageContextProvider>
   );
 }
