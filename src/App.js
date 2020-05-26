@@ -17,10 +17,6 @@ function App() {
       <ImageContextProvider>
           <Header />
           <Main />
-        {/* <Switch>
-          <Route path='/' exact component={Images}/>
-          <Route path='/favImages' component={FavoritesListItems}/>
-        </Switch> */}
       </ImageContextProvider>
   );
 }

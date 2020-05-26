@@ -7,13 +7,6 @@ const FavoritesListItems = () => {
     // console.log(state)
     // console.log(dispatch)
     const {favoritesList} = state;
-    // console.log(favoritesList)
-    
-    // const buttonStyle = {
-    //     display:'flex',
-    //     justifyContent: 'center',
-    //     alignItems: 'center'
-    // }
 
     return (
         <div className={classes.FavList} >
