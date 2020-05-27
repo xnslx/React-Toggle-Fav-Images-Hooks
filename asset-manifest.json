@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Toggle-Fav-Images-Hooks/static/css/main.8e10a1dc.chunk.css",
-    "main.js": "/React-Toggle-Fav-Images-Hooks/static/js/main.9d774d15.chunk.js",
-    "main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/main.9d774d15.chunk.js.map",
+    "main.css": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css",
+    "main.js": "/React-Toggle-Fav-Images-Hooks/static/js/main.7c221766.chunk.js",
+    "main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/main.7c221766.chunk.js.map",
     "runtime-main.js": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js",
     "runtime-main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js.map",
-    "static/js/2.8460061b.chunk.js": "/React-Toggle-Fav-Images-Hooks/static/js/2.8460061b.chunk.js",
-    "static/js/2.8460061b.chunk.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/2.8460061b.chunk.js.map",
+    "static/js/2.ad34ac1f.chunk.js": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js",
+    "static/js/2.ad34ac1f.chunk.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.map",
     "index.html": "/React-Toggle-Fav-Images-Hooks/index.html",
-    "precache-manifest.d1f0590eb48ac9c56c2fb2f81fcd65c5.js": "/React-Toggle-Fav-Images-Hooks/precache-manifest.d1f0590eb48ac9c56c2fb2f81fcd65c5.js",
+    "precache-manifest.f58fe99a0289e46496cec4199fcfce6a.js": "/React-Toggle-Fav-Images-Hooks/precache-manifest.f58fe99a0289e46496cec4199fcfce6a.js",
     "service-worker.js": "/React-Toggle-Fav-Images-Hooks/service-worker.js",
-    "static/css/main.8e10a1dc.chunk.css.map": "/React-Toggle-Fav-Images-Hooks/static/css/main.8e10a1dc.chunk.css.map",
-    "static/js/2.8460061b.chunk.js.LICENSE.txt": "/React-Toggle-Fav-Images-Hooks/static/js/2.8460061b.chunk.js.LICENSE.txt",
+    "static/css/main.9bf9db57.chunk.css.map": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css.map",
+    "static/js/2.ad34ac1f.chunk.js.LICENSE.txt": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.LICENSE.txt",
     "static/media/img01.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img01.8d1a45b4.jpg",
     "static/media/img02.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img02.ac78cf3f.jpg",
     "static/media/img03.jpg": "/React-Toggle-Fav-Images-Hooks/static/media/img03.1814966d.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c9a4a578.js",
-    "static/js/2.8460061b.chunk.js",
-    "static/css/main.8e10a1dc.chunk.css",
-    "static/js/main.9d774d15.chunk.js"
+    "static/js/2.ad34ac1f.chunk.js",
+    "static/css/main.9bf9db57.chunk.css",
+    "static/js/main.7c221766.chunk.js"
   ]
 }

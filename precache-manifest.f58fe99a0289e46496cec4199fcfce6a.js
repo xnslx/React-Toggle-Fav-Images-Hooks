@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6c270641c45c09db015ecf27332c1b2",
+    "revision": "92f54b2ee0eb60d54f3ed9cb0c4ed633",
     "url": "/React-Toggle-Fav-Images-Hooks/index.html"
   },
   {
-    "revision": "53eefe6c62d0ca3c75ba",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/css/main.8e10a1dc.chunk.css"
+    "revision": "1ab700ec45470ed9f081",
+    "url": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css"
   },
   {
-    "revision": "d4bf7ffafd856523b105",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/js/2.8460061b.chunk.js"
+    "revision": "58aa5371e1d6334f6ca2",
+    "url": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/js/2.8460061b.chunk.js.LICENSE.txt"
+    "url": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53eefe6c62d0ca3c75ba",
-    "url": "/React-Toggle-Fav-Images-Hooks/static/js/main.9d774d15.chunk.js"
+    "revision": "1ab700ec45470ed9f081",
+    "url": "/React-Toggle-Fav-Images-Hooks/static/js/main.7c221766.chunk.js"
   },
   {
     "revision": "dfc24c18663c3c5e0090",
