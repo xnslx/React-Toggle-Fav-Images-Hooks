@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css",
-    "main.js": "/React-Toggle-Fav-Images-Hooks/static/js/main.7c221766.chunk.js",
-    "main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/main.7c221766.chunk.js.map",
+    "main.js": "/React-Toggle-Fav-Images-Hooks/static/js/main.88a90893.chunk.js",
+    "main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/main.88a90893.chunk.js.map",
     "runtime-main.js": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js",
     "runtime-main.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/runtime-main.c9a4a578.js.map",
     "static/js/2.ad34ac1f.chunk.js": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js",
     "static/js/2.ad34ac1f.chunk.js.map": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.map",
     "index.html": "/React-Toggle-Fav-Images-Hooks/index.html",
-    "precache-manifest.f58fe99a0289e46496cec4199fcfce6a.js": "/React-Toggle-Fav-Images-Hooks/precache-manifest.f58fe99a0289e46496cec4199fcfce6a.js",
+    "precache-manifest.e254090a390c8ad3306baf5cff6c4eb6.js": "/React-Toggle-Fav-Images-Hooks/precache-manifest.e254090a390c8ad3306baf5cff6c4eb6.js",
     "service-worker.js": "/React-Toggle-Fav-Images-Hooks/service-worker.js",
     "static/css/main.9bf9db57.chunk.css.map": "/React-Toggle-Fav-Images-Hooks/static/css/main.9bf9db57.chunk.css.map",
     "static/js/2.ad34ac1f.chunk.js.LICENSE.txt": "/React-Toggle-Fav-Images-Hooks/static/js/2.ad34ac1f.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c9a4a578.js",
     "static/js/2.ad34ac1f.chunk.js",
     "static/css/main.9bf9db57.chunk.css",
-    "static/js/main.7c221766.chunk.js"
+    "static/js/main.88a90893.chunk.js"
   ]
 }

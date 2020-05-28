@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-Toggle-Fav-Images-Hooks/precache-manifest.f58fe99a0289e46496cec4199fcfce6a.js"
+  "/React-Toggle-Fav-Images-Hooks/precache-manifest.e254090a390c8ad3306baf5cff6c4eb6.js"
 );
 
 self.addEventListener('message', (event) => {
