@@ -22,7 +22,7 @@ const Header = () => {
 
     return (
         <>
-            <Link to='/'><img src={logo} alt="logo" style={logoStyle}/></Link>
+            <Link to='/images'><img src={logo} alt="logo" style={logoStyle}/></Link>
             <div style={{marginTop:'20px', textAlign:'right',marginRight:'40px'}}>
                 <Link to='/favImages'><FontAwesomeIcon icon={['far', 'heart']}/></Link>
                 <span>{favoritesList.length}</span>
